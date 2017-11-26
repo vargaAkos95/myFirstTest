@@ -1,15 +1,15 @@
 {
-"name": "This is my first web app",
-"private": true,
-"version": "1.0",
-"description": "The test of my first web app",
-"main": "app.js",
-"author": "Akos Varga <varga.akos.95@gmail.com>",
-"license": "No license is needed",
-"dependencies": {
+  "name": "My first test",
+  "private": true,
+  "version": "1.0",
+  "description": "First test web app",
+  "main": "app.js",
+  "author": "Akos Varga <varga.akos.95@gmail.com>",
+  "license":No license needed",
+  "dependencies": {
     "express": "3.2.4",
     "jade": "1.11.0",
-    "mocha": "1.20.1.",
+    "mocha": "1.20.1",
     "supertest": "1.1.0"
-}
+  }
 }
