@@ -1,4 +1,3 @@
-// Simple async test for HTTP 200 response code using supertest
 'use strict';
 
 var request = require("supertest"),
