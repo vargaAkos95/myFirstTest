@@ -1,10 +1,11 @@
 {
-  "name": "test-web-page",
+  "name": "hello-pluralsighters",
   "private": true,
-  "version": "1.0.test of my first webpage",
+  "version": "0.0.1",
+  "description": "Demo app for Pluralsight Docker CI course",
   "main": "app.js",
-  "author": "Akos Varga <varga.akos.95@gmail.com>",
-  "license": "Not needed",
+  "author": "Nigel Poulton <nigelpoulton@hotmail.com>",
+  "license": "You'd have to be mad to use this in production :-D",
   "dependencies": {
     "express": "3.2.4",
     "jade": "1.11.0",
