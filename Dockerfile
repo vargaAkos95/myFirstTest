@@ -2,15 +2,15 @@ FROM ubuntu:latest
 
 MAINTAINER varga.akos.95@gmail.com
 
-#RUN rpm -Uvh http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
+RUN apt-get update
 
+RUN apt-get install curl
 
-#RUN yum install -y npm
+RUN curl -sL https://deb.nodesource.com/setup_4.x | bash
 
-RUN sudo apt-get install npm
+RUN apt-get install nodejs
 
 COPY . /src
-
 
 RUN cd /src; npm install
 
