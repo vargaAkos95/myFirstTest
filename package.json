@@ -1,7 +1,7 @@
 {
   "name": "my-first-test",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Test of my first app",
   "main": "app.js",
   "author": "Akos Varga <varga.akos.95@gmail.com>",
