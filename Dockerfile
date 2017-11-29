@@ -4,11 +4,11 @@ MAINTAINER varga.akos.95@gmail.com
 
 RUN apt-get update
 
-RUN apt-get install curl
+RUN apt-get -y install curl
 
 RUN curl -sL https://deb.nodesource.com/setup_4.x | bash
 
-RUN apt-get install nodejs
+RUN apt-get -y install nodejs
 
 COPY . /src
 
